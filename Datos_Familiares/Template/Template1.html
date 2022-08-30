@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de Familiares</title>
+</head>
+<body>
+Datos de las familias 
+
+{%for familiar in Familiares%}
+<p>Nombre: {{familiar.Nombre}}<br>Apellido: {{familiar.Apellido}}<br>Edad: {{familiar.Edad}}<br>Fecha de nacimiento: {{familiar.Fecha_Nacimiento}}</p>
+{%endfor%}
+
+</body>
+</html>

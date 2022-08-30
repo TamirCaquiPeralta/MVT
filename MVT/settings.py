@@ -55,7 +55,7 @@ ROOT_URLCONF = 'MVT.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r"C:\Users\Tamir\Desktop\hola\MVT\Datos_Familiares\Template"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
